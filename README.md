@@ -55,3 +55,7 @@ $result = mysqli_query($mysqli, "SELECT * FROM employee ORDER BY id DESC");
 </html>
 ````
 4. Buat halaman edit.php, add.php, dan delete.php untuk melakukan handler pada fungsi create, update and delete (**CRUD**).
+5. Berikut ScreenShoot hasil demo Simple CRUD yang berhasil saya buat.
+![Screenshot Home Page](https://github.com/AryasutaWicaksana/testArkademi2019/blob/master/homepage.png)
+![Screenshot Home Page](https://github.com/AryasutaWicaksana/testArkademi2019/blob/master/add.png)
+![Screenshot Home Page](https://github.com/AryasutaWicaksana/testArkademi2019/blob/master/edit.png)
