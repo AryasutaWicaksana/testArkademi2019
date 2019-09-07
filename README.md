@@ -17,6 +17,7 @@ Pada soal nomer 6 dibuat aplikasi sederhana untuk CRUD menggunakan php, dengan s
 ?>
 ```
 jangan lupa untuk melakukan konfigurasi untuk nama host, user, pass dan database name sesuai dengan konfigurasi pada PC anda.
+
 3. Setelah berhasil melakukan koneksi database, selanjutnya dibuat file index.php, dimana halaman ini sebagai halaman utama yang akan menampilkan seluruh data yang ada pada tabel.
 ````
 <?php
@@ -53,3 +54,4 @@ $result = mysqli_query($mysqli, "SELECT * FROM employee ORDER BY id DESC");
 </body>
 </html>
 ````
+4. Buat halaman edit.php, add.php, dan delete.php untuk melakukan handler pada fungsi create, update and delete (**CRUD**).
